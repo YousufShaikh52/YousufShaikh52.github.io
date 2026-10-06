@@ -12,3 +12,4 @@ code { font-size: 0.9em; }
 .app { display: flex; gap: 16px; align-items: flex-start; background: var(--card); padding: 16px; border-radius: 16px; }
 .app img { border-radius: 14px; flex: none; }
 .app p { margin: 4px 0; }
+.app + .app { margin-top: 12px; }
